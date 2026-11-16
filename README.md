@@ -13,7 +13,7 @@ FinRag is a Python and FastAPI application for exploring corporate annual report
 
 FinRag displays financial KPIs for uploaded annual reports, including revenue, net income, operating income, cash flow, assets, and liabilities. It also highlights growth drivers and risk factors.
 
-![FinRag Intelligence Dashboard](docs/screenshots/4.png)
+![FinRag Intelligence Dashboard](Docs/Screenshots/4.png)
 
 ### PDF Report Upload
 
@@ -25,7 +25,7 @@ Upload a financial report through the dashboard. The interface displays upload p
 
 Ask questions about the indexed reports through the AI Analyst panel. The example below illustrates how the assistant responds when it cannot find sufficient supporting context for a question about NVIDIA.
 
-![FinRag AI Analyst Example](docs/screenshots/6.png)
+![FinRag AI Analyst Example](Docs/Screenshots/3.png)
 
 > **Note:** The screenshots show a locally running application with sample financial-report data. The AI Analyst can provide incomplete answers when relevant documents are missing or not retrieved; always verify financial figures against source reports.
 
