@@ -9,11 +9,25 @@ FinRag is a Python and FastAPI application for exploring corporate annual report
 
 ## Preview
 
-<!--
-![FinRag dashboard](docs/screenshots/dashboard.png)
-![Document upload](docs/screenshots/upload.png)
-![Financial Q&A](docs/screenshots/chat.png)
--->
+### Financial Intelligence Dashboard
+
+FinRag displays financial KPIs for uploaded annual reports, including revenue, net income, operating income, cash flow, assets, and liabilities. It also highlights growth drivers and risk factors.
+
+![FinRag Intelligence Dashboard](docs/screenshots/4.png)
+
+### PDF Report Upload
+
+Upload a financial report through the dashboard. The interface displays upload progress while the document is submitted for processing.
+
+![FinRag PDF Upload Progress](Docs/Screenshots/2.png)
+
+### AI-Powered Financial Q&A
+
+Ask questions about the indexed reports through the AI Analyst panel. The example below illustrates how the assistant responds when it cannot find sufficient supporting context for a question about NVIDIA.
+
+![FinRag AI Analyst Example](docs/screenshots/6.png)
+
+> **Note:** The screenshots show a locally running application with sample financial-report data. The AI Analyst can provide incomplete answers when relevant documents are missing or not retrieved; always verify financial figures against source reports.
 
 ## What FinRag Does
 
@@ -104,11 +118,11 @@ FinRag/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_DIRECTORY>
+git clone https://github.com/AI-Vijay/FinRag.git
+cd FinRag
 ```
 
-Replace the placeholders with your actual GitHub repository URL and directory.
+If your repository has a different URL or directory name, adjust these commands accordingly.
 
 ### 2. Install UV
 
